@@ -1,3 +1,71 @@
 
-def hola_a(): 
-    pass
+#### Exercise 1: Add two Numbers
+
+def add_two_numbers(a,b):
+    return a + b
+
+print(add_two_numbers(3,5))
+print(add_two_numbers(10,20))
+
+#### Exercise 2 : Print a Greeting
+
+def greeting(name):
+    print(f"Hello, {name}!")
+
+greeting("Alice")
+greeting("Bob")
+
+####### Exercise 3 : Check If Number Is Even or Odd
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    return "Odd"
+
+print(check_even_odd(4))
+print(check_even_odd(7))
+    
+######### Exercise 4 : Sum of Numbers in a List
+
+def sum_list(numbers):
+    total = 0
+    for n in numbers:
+        total = total + n
+    return total
+
+mynumbers = [1,2,3,4]
+result = sum_list(mynumbers)
+
+print(result)
+
+####### Exercise 5 : Print Days Of the Week
+
+def print_days():
+    days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    
+    for index, day in enumerate(days):
+        print(day)
+
+print_days()
+
+##### Exercise 6 : Check If the numberis Positive, Negative, or Zero
+
+def check_sign(number):
+    if number == 0:
+        return "Zero"
+    if number % 2 == 0:
+        return "Positive"
+    return "Negative"
+
+print(check_sign(10))
+print(check_sign(-5))
+print(check_sign(0))
+
+##### Exercise 7: Repeat a Word
+
+def repeat_word(word, count):
+    for i in range(count):
+        print(word)
+
+repeat_word("Hello",3)
+repeat_word("goodbye",2)
