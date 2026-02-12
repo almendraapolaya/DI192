@@ -1,0 +1,27 @@
+#### Exercise 2 : Cat's and Dog's years
+
+human_years = 10
+
+
+if human_years == 1:
+    dog_years = 15
+    cat_years = 15
+
+elif human_years == 2:
+    dog_years = 24
+    cat_years = 24
+
+else:
+    extra_years = human_years - 2
+    dog_years = 24 + (extra_years * 5)
+    cat_years = 24 + (extra_years * 4)
+
+result = [human_years, dog_years, cat_years]
+print(result)
+
+
+#Verified tests:
+# input 1 -> [1, 15, 15]
+# input 1 -> [2, 24, 24]
+# input 1 -> [10, 56, 64]
+

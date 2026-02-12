@@ -1,0 +1,106 @@
+#### Exercise 1: Boolean Logic
+
+##### 1 ########
+
+first = "Hellow World"
+
+####### 2 ######
+
+### "This is a comment.""
+
+####### 3 ######
+
+print("I am a computer".upper())
+print("---")
+
+####### 4 ######
+
+if 1 < 2 and 4 > 2:
+    print("Math is fun.")
+    print("---")
+
+###### 5 #######
+
+nope = None
+
+###### 6 #######
+
+myvar = True and False
+
+###### 7 #######
+
+mylen = "What's my len"
+print(len("mylen"))
+print("---")
+###### 8 #######
+
+print("i am shouting".upper())
+print("---")
+
+###### 9 #######
+
+number_str = "1000"
+print(str(number_str))
+print("---")
+
+###### 10 ######
+
+numb = 4
+str_word = "real"
+print(f"{numb}{str_word}")
+print("---")
+
+####### 11 #####
+
+print(3 * "cool") 
+print("---")
+
+####### 12 #####
+
+print(1/2)
+print("---")
+
+####### 13 #####
+
+det_type = type([])
+print(det_type)
+print("---")
+
+####### 14 #####
+
+name = input("what is your name ")
+
+####### 15 #####
+
+age = int(input("Please type a number here "))
+if age < 0:
+  print("That number is less than 0!")
+elif age > 0:
+   print("That number is greater than 0!")
+else:
+   print("You picked 0")
+
+####### 16 #####
+
+word = "apple"
+index_l = word.index("l")
+print(index_l)
+print("---")
+
+####### 17 ######
+
+word = "xylophone"
+checking = "y" in word
+print(checking)
+print("---")
+
+####### 18 ######
+
+my_string = "lower"
+lower_true = my_string.islower()
+print(lower_true)
+
+
+
+
+
