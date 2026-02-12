@@ -6,7 +6,7 @@ def add_two_numbers(a,b):
 
 print(add_two_numbers(3,5))
 print(add_two_numbers(10,20))
-
+print("---")
 #### Exercise 2 : Print a Greeting
 
 def greeting(name):
@@ -14,6 +14,7 @@ def greeting(name):
 
 greeting("Alice")
 greeting("Bob")
+print("---")
 
 ####### Exercise 3 : Check If Number Is Even or Odd
 
@@ -24,7 +25,8 @@ def check_even_odd(number):
 
 print(check_even_odd(4))
 print(check_even_odd(7))
-    
+print("---")
+
 ######### Exercise 4 : Sum of Numbers in a List
 
 def sum_list(numbers):
@@ -37,6 +39,7 @@ mynumbers = [1,2,3,4]
 result = sum_list(mynumbers)
 
 print(result)
+print("---")
 
 ####### Exercise 5 : Print Days Of the Week
 
@@ -47,6 +50,7 @@ def print_days():
         print(day)
 
 print_days()
+print("---")
 
 ##### Exercise 6 : Check If the numberis Positive, Negative, or Zero
 
@@ -60,6 +64,7 @@ def check_sign(number):
 print(check_sign(10))
 print(check_sign(-5))
 print(check_sign(0))
+print("---")
 
 ##### Exercise 7: Repeat a Word
 
