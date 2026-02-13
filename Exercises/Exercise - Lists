@@ -1,0 +1,87 @@
+### Exercise 1: Lists 
+
+###### 1 #####
+
+my_list = [1, 2, 3, 4]
+for l in my_list:
+    print(l)
+
+
+###### 2 #####
+
+s_list = [1, 2, 3, 4]
+for n in s_list:
+    print(n * 20)
+
+###### 3 #####
+
+names = ["Ellie", "Tim", "Matt"]
+first_letters = [ name[0] for name in names]
+
+print(first_letters)
+
+###### 4 ######
+
+numbers = [1, 2, 3, 4, 5, 6]
+even = [num for num in numbers if num % 2 == 0]
+
+print(even)
+
+###### 5 ######
+
+list_1 = [1, 2, 3, 4]
+list_2 = [3, 4, 5, 6]
+both_lists = [number for number in list_1 if number in list_2]
+
+print(both_lists)
+
+###### 6 ######
+
+names = ["Ellie", "Tim", "Matt"]
+rev_lower = [word[:: -1].lower() for word in names]
+print(rev_lower)
+
+###### 7 ######
+
+str_1 = "first"
+str_2 = "third"
+common_l = [l for l in str_1 if l in str_2]
+
+print(common_l)
+
+###### 8 ######
+
+numb = range(1,101)
+numb_12 = [n for n in numb if n % 12 == 0]
+
+print(numb_12)
+
+###### 9 ######
+
+str_9 = "amazing"
+vowels = "aeiou"
+remove_v = [v for v in str_9 if v not in vowels]
+
+print(remove_v)
+
+###### 10 #####
+
+new_list = []
+for a in range(3):
+    next_n = []
+    for b in range(3):
+        next_n.append(b)
+    new_list.append(next_n)
+
+print(new_list)
+
+####### 11 ######
+
+last_exc = []
+for n in range(10):
+    add_n = []
+    for m in range(10):
+        add_n.append(m)
+    last_exc.append(add_n)
+
+print(last_exc)
