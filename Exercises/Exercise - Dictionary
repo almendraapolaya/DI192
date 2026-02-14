@@ -1,0 +1,49 @@
+###### Exercise 1 : Dictionary
+
+###### 1 ######
+
+info = [("name", "Ellie"), ("job", "Instructor")]
+my_dic = dict(info)
+
+print(my_dic)
+
+###### 2 ######
+
+list_1 = ["CA", "NJ", "RI"]
+list_2 = ["California", "New Yersey", "Rhode Island"]
+
+dict_new = dict(zip(list_1, list_2))
+
+print(dict_new)
+
+###### 3 #######
+
+vowels = "aeiou"
+
+final_result = {x: 0 for x in vowels}
+print(final_result)
+
+###### 4 #######
+
+alphabet = {}
+
+for x in range(65,91):
+    letter = chr(x)
+    position = x - 64
+    alphabet[position] = letter
+
+print(alphabet)
+    
+##### BONUS ####
+
+new_string = "awesome sauce"
+vowel_counts = {'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}
+
+for v in new_string:
+    if v in vowel_counts:
+        vowel_counts[v] += 1
+
+print(vowel_counts)
+
+
+
